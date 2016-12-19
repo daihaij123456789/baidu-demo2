@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+		<div class="dialog" id="dialog">
+			<div class="dialog-title" id="dialogTitle">登陆通行证
+				<a class="dialog-title-closeButton" href="javascript:hideDialog()"></a>
+			</div>
+			<div class="dialog-content">
+				<div class="dialog-l40 dialog-pt15">
+					<input class="dialog-input dialog-input-username" type="input" value="手机/邮箱/用户名" />
+				</div>
+				<div class="dialog-l40 dialog-pt15">
+					<input class="dialog-input dialog-input-password" type="input" value="密码" />
+				</div>
+				<div class="dialog-l40">
+					<a href="#">忘记密码</a>
+				</div>
+				<div>
+					<a class="dialog-submit" href="#" >登录</a>
+				</div>
+				<div class="dialog-l40">
+					<a href="#">立即注册</a>
+				</div>
+			</div>
+		</div>
+		<div class="mask" id="mask" onslectstart="return false"></div>
+		<div class="link"><a href="javascript:showDialog()">登陆</a></div>
+		<script type="text/javascript" src="dialog.js"></script>
+</body>
+</html>
